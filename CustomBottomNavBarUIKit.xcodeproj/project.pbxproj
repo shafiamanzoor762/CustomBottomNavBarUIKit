@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FAAB9D1D2EBF72F70077ADBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAB9CFE2EBF72F40077ADBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAB9D052EBF72F40077ADBA;
+			remoteInfo = CustomBottomNavBarUIKit;
+		};
+		FAAB9D272EBF72F70077ADBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAB9CFE2EBF72F40077ADBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAB9D052EBF72F40077ADBA;
+			remoteInfo = CustomBottomNavBarUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAAB9D062EBF72F40077ADBA /* CustomBottomNavBarUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomBottomNavBarUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAB9D1C2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomBottomNavBarUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAB9D262EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomBottomNavBarUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FAAB9D2E2EBF72F70077ADBA /* Exceptions for "CustomBottomNavBarUIKit" folder in "CustomBottomNavBarUIKit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FAAB9D052EBF72F40077ADBA /* CustomBottomNavBarUIKit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FAAB9D082EBF72F40077ADBA /* CustomBottomNavBarUIKit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FAAB9D2E2EBF72F70077ADBA /* Exceptions for "CustomBottomNavBarUIKit" folder in "CustomBottomNavBarUIKit" target */,
+			);
+			path = CustomBottomNavBarUIKit;
+			sourceTree = "<group>";
+		};
+		FAAB9D1F2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CustomBottomNavBarUIKitTests;
+			sourceTree = "<group>";
+		};
+		FAAB9D292EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CustomBottomNavBarUIKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAB9D032EBF72F40077ADBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAB9D192EBF72F70077ADBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAB9D232EBF72F70077ADBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAB9CFD2EBF72F40077ADBA = {
+			isa = PBXGroup;
+			children = (
+				FAAB9D082EBF72F40077ADBA /* CustomBottomNavBarUIKit */,
+				FAAB9D1F2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests */,
+				FAAB9D292EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests */,
+				FAAB9D072EBF72F40077ADBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAB9D072EBF72F40077ADBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB9D062EBF72F40077ADBA /* CustomBottomNavBarUIKit.app */,
+				FAAB9D1C2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests.xctest */,
+				FAAB9D262EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAB9D052EBF72F40077ADBA /* CustomBottomNavBarUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAB9D2F2EBF72F70077ADBA /* Build configuration list for PBXNativeTarget "CustomBottomNavBarUIKit" */;
+			buildPhases = (
+				FAAB9D022EBF72F40077ADBA /* Sources */,
+				FAAB9D032EBF72F40077ADBA /* Frameworks */,
+				FAAB9D042EBF72F40077ADBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FAAB9D082EBF72F40077ADBA /* CustomBottomNavBarUIKit */,
+			);
+			name = CustomBottomNavBarUIKit;
+			packageProductDependencies = (
+			);
+			productName = CustomBottomNavBarUIKit;
+			productReference = FAAB9D062EBF72F40077ADBA /* CustomBottomNavBarUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAAB9D1B2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAB9D342EBF72F70077ADBA /* Build configuration list for PBXNativeTarget "CustomBottomNavBarUIKitTests" */;
+			buildPhases = (
+				FAAB9D182EBF72F70077ADBA /* Sources */,
+				FAAB9D192EBF72F70077ADBA /* Frameworks */,
+				FAAB9D1A2EBF72F70077ADBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAB9D1E2EBF72F70077ADBA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FAAB9D1F2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests */,
+			);
+			name = CustomBottomNavBarUIKitTests;
+			packageProductDependencies = (
+			);
+			productName = CustomBottomNavBarUIKitTests;
+			productReference = FAAB9D1C2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAAB9D252EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAB9D372EBF72F70077ADBA /* Build configuration list for PBXNativeTarget "CustomBottomNavBarUIKitUITests" */;
+			buildPhases = (
+				FAAB9D222EBF72F70077ADBA /* Sources */,
+				FAAB9D232EBF72F70077ADBA /* Frameworks */,
+				FAAB9D242EBF72F70077ADBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAB9D282EBF72F70077ADBA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FAAB9D292EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests */,
+			);
+			name = CustomBottomNavBarUIKitUITests;
+			packageProductDependencies = (
+			);
+			productName = CustomBottomNavBarUIKitUITests;
+			productReference = FAAB9D262EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAB9CFE2EBF72F40077ADBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					FAAB9D052EBF72F40077ADBA = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					FAAB9D1B2EBF72F70077ADBA = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FAAB9D052EBF72F40077ADBA;
+					};
+					FAAB9D252EBF72F70077ADBA = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FAAB9D052EBF72F40077ADBA;
+					};
+				};
+			};
+			buildConfigurationList = FAAB9D012EBF72F40077ADBA /* Build configuration list for PBXProject "CustomBottomNavBarUIKit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAAB9CFD2EBF72F40077ADBA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FAAB9D072EBF72F40077ADBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAB9D052EBF72F40077ADBA /* CustomBottomNavBarUIKit */,
+				FAAB9D1B2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests */,
+				FAAB9D252EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAAB9D042EBF72F40077ADBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAB9D1A2EBF72F70077ADBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAB9D242EBF72F70077ADBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAB9D022EBF72F40077ADBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAB9D182EBF72F70077ADBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAB9D222EBF72F70077ADBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAAB9D1E2EBF72F70077ADBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAB9D052EBF72F40077ADBA /* CustomBottomNavBarUIKit */;
+			targetProxy = FAAB9D1D2EBF72F70077ADBA /* PBXContainerItemProxy */;
+		};
+		FAAB9D282EBF72F70077ADBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAB9D052EBF72F40077ADBA /* CustomBottomNavBarUIKit */;
+			targetProxy = FAAB9D272EBF72F70077ADBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAAB9D302EBF72F70077ADBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomBottomNavBarUIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.CustomBottomNavBarUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAAB9D312EBF72F70077ADBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomBottomNavBarUIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.CustomBottomNavBarUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAAB9D322EBF72F70077ADBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAAB9D332EBF72F70077ADBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAAB9D352EBF72F70077ADBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.CustomBottomNavBarUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomBottomNavBarUIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomBottomNavBarUIKit";
+			};
+			name = Debug;
+		};
+		FAAB9D362EBF72F70077ADBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.CustomBottomNavBarUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomBottomNavBarUIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomBottomNavBarUIKit";
+			};
+			name = Release;
+		};
+		FAAB9D382EBF72F70077ADBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.CustomBottomNavBarUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomBottomNavBarUIKit;
+			};
+			name = Debug;
+		};
+		FAAB9D392EBF72F70077ADBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.CustomBottomNavBarUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomBottomNavBarUIKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAB9D012EBF72F40077ADBA /* Build configuration list for PBXProject "CustomBottomNavBarUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAB9D322EBF72F70077ADBA /* Debug */,
+				FAAB9D332EBF72F70077ADBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAB9D2F2EBF72F70077ADBA /* Build configuration list for PBXNativeTarget "CustomBottomNavBarUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAB9D302EBF72F70077ADBA /* Debug */,
+				FAAB9D312EBF72F70077ADBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAB9D342EBF72F70077ADBA /* Build configuration list for PBXNativeTarget "CustomBottomNavBarUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAB9D352EBF72F70077ADBA /* Debug */,
+				FAAB9D362EBF72F70077ADBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAB9D372EBF72F70077ADBA /* Build configuration list for PBXNativeTarget "CustomBottomNavBarUIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAB9D382EBF72F70077ADBA /* Debug */,
+				FAAB9D392EBF72F70077ADBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAB9CFE2EBF72F40077ADBA /* Project object */;
+}
