@@ -6,7 +6,7 @@ This project demonstrates how to completely replace `UITabBar` with fully custom
 
 ---
 ### Project Structure
-![Project Structure](Screenshots/project_structure.png)
+![Project Structure](CustomBottomNavBarUIKit/Screenshots/project_structure.png)
 
 ## ✨ Features
 
@@ -29,10 +29,10 @@ This project demonstrates how to completely replace `UITabBar` with fully custom
 ## 📱 Preview
 
 ### Inner Curved Tab Bar
-![Inner Curved Tab Bar](Screenshots/inner_curved_tabbar.gif)
+![Inner Curved Tab Bar](CustomBottomNavBarUIKit/Screenshots/inner_curved_tabbar.gif)
 
 ### Wave Style Custom Tab Bar
-![Custom Tab Bar](Screenshots/custom_tabbar.gif)
+![Custom Tab Bar](CustomBottomNavBarUIKit/Screenshots/custom_tabbar.gif)
 
 ---
 
