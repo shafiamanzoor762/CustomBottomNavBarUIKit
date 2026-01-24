@@ -8,6 +8,8 @@ This project demonstrates how to completely replace `UITabBar` with fully custom
 ## Project Structure
 ![Project Structure](CustomBottomNavBarUIKit/Screenshots/project_structure.png)
 
+---
+
 ## ✨ Features
 
 ### 🔹 Inner Curved Tab Bar
