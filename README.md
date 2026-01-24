@@ -52,3 +52,50 @@ This project demonstrates how to completely replace `UITabBar` with fully custom
 window.rootViewController = CustomTabBarController()
 // OR
 window.rootViewController = InnerCurvedTabBarController()
+```
+
+---
+
+### Step 2: Customize Tabs
+
+Modify titles, icons, and colors inside:
+
+* `tabTitles`
+* `tabIcons`
+* `tabIconsFilled / tabIconsSelected`
+
+---
+
+## 🎨 Customization Options
+
+* Change bump height
+* Adjust animation timing & damping
+* Replace icons (SF Symbols or image assets)
+* Modify colors & shadows
+* Add more tabs easily
+
+---
+
+## 🧠 Concepts Used
+
+* `UIBezierPath` custom drawing
+* `UITabBarController` replacement
+* `UIControl` & `UIButton` subclassing
+* Spring animations
+* Auto Layout (programmatic)
+* Clean MVC structure
+
+---
+
+## 📄 License
+
+MIT License
+Free to use in personal & commercial projects.
+
+---
+
+## 👩‍💻 Author
+
+**Shafia Manzoor**
+
+If you like this project, feel free to ⭐️ the repo and share it!
