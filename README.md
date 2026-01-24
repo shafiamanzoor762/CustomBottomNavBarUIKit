@@ -5,7 +5,7 @@ A collection of **stylish, animated custom bottom tab bars** built using **UIKit
 This project demonstrates how to completely replace `UITabBar` with fully custom, highly interactive navigation bars.
 
 ---
-### Project Structure
+## Project Structure
 ![Project Structure](CustomBottomNavBarUIKit/Screenshots/project_structure.png)
 
 ## ✨ Features
