@@ -48,16 +48,6 @@
 			path = CustomBottomNavBarUIKit;
 			sourceTree = "<group>";
 		};
-		FAAB9D1F2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CustomBottomNavBarUIKitTests;
-			sourceTree = "<group>";
-		};
-		FAAB9D292EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CustomBottomNavBarUIKitUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				FAAB9D082EBF72F40077ADBA /* CustomBottomNavBarUIKit */,
-				FAAB9D1F2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests */,
-				FAAB9D292EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests */,
 				FAAB9D072EBF72F40077ADBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				FAAB9D1E2EBF72F70077ADBA /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				FAAB9D1F2EBF72F70077ADBA /* CustomBottomNavBarUIKitTests */,
-			);
 			name = CustomBottomNavBarUIKitTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				FAAB9D282EBF72F70077ADBA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				FAAB9D292EBF72F70077ADBA /* CustomBottomNavBarUIKitUITests */,
 			);
 			name = CustomBottomNavBarUIKitUITests;
 			packageProductDependencies = (
