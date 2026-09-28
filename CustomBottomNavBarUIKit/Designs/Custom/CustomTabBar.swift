@@ -68,7 +68,6 @@ class CustomTabBar: UIView {
             stackView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -10)
         ])
 
-        // ⬇️ YEH LINE ADD KARO - Layout complete hone ke baad select karo ⬇️
         DispatchQueue.main.async {
             self.selectTab(at: 0, animated: false)
         }
@@ -86,7 +85,6 @@ class CustomTabBar: UIView {
         let previousIndex = currentSelectedIndex
         currentSelectedIndex = index
 
-        // Sabhi buttons ko reset karo
         for (i, button) in buttons.enumerated() {
             if i == index {
                 // Selected button
@@ -117,11 +115,9 @@ class CustomTabBar: UIView {
     }
 
     // MARK: - Drawing
-
     override func draw(_ rect: CGRect) {
         super.draw(rect)
 
-        // **CORNER RADIUS KE LIYE CHANGES:**
         // Draw the main tab bar background with rounded corners
         let backgroundRect = CGRect(x: 0, y: bumpHeight, width: rect.width, height: rect.height - bumpHeight)
         let backgroundPath = UIBezierPath(
@@ -179,7 +175,6 @@ class CustomTabBar: UIView {
     override func layoutSubviews() {
         super.layoutSubviews()
 
-        // **SHADOW KE LIYE CHANGES:**
         // Create a separate layer for shadow that doesn't affect the bump
         layer.shadowColor = UIColor.black.cgColor
         layer.shadowOpacity = 0.1
